@@ -1,0 +1,147 @@
+/*GENERAL*/
+html,body {
+    font-family: Raleway,Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.flex-centre{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+.flex-around{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.flex-between{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.decorationNone{
+    text-decoration: none;
+}
+.bordureNone{
+    border: none;
+}
+.texteGras{
+    font-weight: bold;
+}
+.colorBleu{
+    color: #0065fc;
+}
+.colorBleuClair{
+    color: #deebff;
+}
+.colorGris{
+    color: #f2f2f2;
+}
+.backBleu{
+    background-color: #0065fc;
+}
+.backBleuClair{
+    background-color: #deebff;
+}
+.backGris{
+    background-color: #f2f2f2;
+}
+/*Nav*/
+.sizeNav{
+    height: 100px;
+}
+.sizeLiens {
+    width: 45%;
+}
+.sizeLien {
+    width: 140px;
+    height: 99px;
+}
+
+.colorlien2{
+    color: black;
+}
+.bordureNav{
+    border-top: 1px solid blue;
+}
+.bordureNav23{
+    border-top: 1px solid transparent;
+}
+.marglogo{
+    margin-bottom: 7px;
+}
+/*HEADER*/
+.borduresearch{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+.paddingSearch{
+    padding-left: 20px;
+}
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.iconsize{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.buttonSearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0px;
+}
+/*Filtres*/
+.margFiltre{
+margin-top: 50px;
+margin-bottom: 40px;
+}
+.filtre{
+    display: flex;
+    align-items: center;
+}
+.margFiltreTtitre{
+    margin-right: 20px;    
+}
+.filtretexteIcons{
+border: 2px solid #f2f2f2;
+height: 50px;
+border-radius: 30px;
+margin-right: 20px;
+}
+.filtretexteIcons:hover>.filtreTexte{
+    color: #0065fc;
+}
+.filtretexteIcons:hover>.filtreIcons{
+    color: white;
+    background-color: #0065fc;
+}
+.filtreTexte{
+height: 50px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 0 25px 25px 0;
+}
+.filtreIcons{
+margin-left: -2px;
+border-radius: 25px;
+width: 52px;
+height: 52px;
+color: #0065fc;
+background-color: #deebff;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+}
+.espace{
+    gap: 20px;
+}

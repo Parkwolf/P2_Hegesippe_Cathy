@@ -5,11 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2a46f23cdb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Booki</title>
 </head>
 
 <body>
-
+    <nav class="sizeNav">
+        <div class="flex-between">
+            <div>
+                <img class="marglogo logo" src="./image/logo/Booki.png" alt="Logo Booki">
+            </div>
+            <div class="flex-around espace">
+                <div class="sizeLien flex-centre bordureNav">
+                    <a class="colorLiens2 decorationNone" href="#">Hébergements</a>
+                </div>
+                <div class="sizeLien flex-centre bordureNav">
+                    <a class="colorLien2 decorationNone" href="#">Activités</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <section>
+            <div>
+                <h1 class="texteGras">Trouvez votre hébergements pour vos vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+            <div class="borduresearch flex-centre">
+                <div class=" backGris flex-centre iconsize"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="recherche"><input class="recherche flex-centre bordureNone paddingSearch" type="search"
+                        value="Marseille,France"></div>
+                <div class="backBleu flex-centre buttonSearch">Rechercher</div>
+            </div>
+            <div class="filtre margFiltre">
+                <div class="margFiltreTtitre">
+                    <h3>Filtres</h3>
+                </div>
+                <div class=" flex-between filtretexteIcons"><i
+                        class="fa-solid fa-money-bill-wave fa-lg filtreIcons flex-centre"></i>
+                    <div class="filtreTexte flex-centre">Économique</div>
+                </div>
+                <div class="flex-between filtretexteIcons"><i
+                        class="fa-solid fa-person fa-lg filtreIcons flex-centre"></i>
+                    <div class="filtreTexte flex-centre">Familial</div>
+                </div>
+                <div class="flex-between filtretexteIcons"><i
+                        class="fa-solid fa-heart fa-lg filtreIcons flex-centre"></i>
+                    <div class="filtreTexte flex-centre">Romantique</div>
+                </div>
+                <div class="flex-between filtretexteIcons"><i class="fa-solid fa-dog fa-lg filtreIcons flex-centre"></i>
+                    <div class="filtreTexte flex-centre">Animaux Autorisés</div>
+                </div>
+            </div>
+        </section>
+    </header>
 </body>
 
 </html>
