@@ -1,8 +1,6 @@
 /*GENERAL*/
 html,body {
     font-family: Raleway,Arial, Helvetica, sans-serif;
-    margin-right: 50px;
-    margin-left: 50px;
 }
 .flex-centre{
    display: flex; 
@@ -20,27 +18,30 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+/*cologne*/
 .flex-column-centre{
     display: flex; 
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
  }
  .flex-column-around{
  display: flex;
  flex-direction: column;
  justify-content: space-around;
- align-items: center;
  }
  
  .flex-column-between{
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- align-items: center;
  }
 .decorationNone{
     text-decoration: none;
+}
+.logo{
+    max-width: 50%;
+    height: auto;
 }
 .bordureNone{
     border: none;
@@ -92,7 +93,7 @@ align-items: center;
     color: #0065fc;
 }
 .marglogo{
-    margin-bottom: 7px;
+    padding: 20px;
 }
 /*HEADER*/
 .borduresearch{
@@ -141,8 +142,8 @@ margin-bottom: 40px;
 .filtretexteIcons{
 border: 2px solid #f2f2f2;
 height: 50px;
-border-radius: 30px;
-margin-right: 20px;
+border-radius: 25px;
+margin-right: 21px;
 }
 .filtretexteIcons:hover>.filtreTexte{
     color: #0065fc;
@@ -153,17 +154,16 @@ margin-right: 20px;
 }
 .filtreTexte{
 height: 50px;
-padding-left: 20px;
+padding-left: 0px;
 padding-right: 20px;
 border-radius: 0 25px 25px 0;
+font-size: 14px;
 }
 .filtreIcons{
-margin-left: -2px;
 border-radius: 25px;
-width: 52px;
-height: 52px;
+width: 50px;
+height: 50px;
 color: #0065fc;
-background-color: #deebff;
 }
 .logo{
     width: 120px;
@@ -172,7 +172,7 @@ background-color: #deebff;
 .espace{
     gap: 20px;
 }
-/*INFO ICONE*/
+/*ICONE*/
 .info{
     display: flex;
     align-items: center;
@@ -277,13 +277,14 @@ background-color: #deebff;
     padding-right: 20px;
 }
 .blocPopulaires12{
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 .cubePopulaires{
     background-color: white;
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 .cubePopulaires:hover{
     cursor: pointer;
@@ -328,13 +329,24 @@ background-color: #deebff;
 }
 /*reglage  bloc*/
 .cubeActivites{
-    width: 23% ;
+    width: 22% ;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
+.cubeActivites24 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
 .cubeActivites:hover{
     cursor: pointer;
-    transform: scale(1,05);   
+    transform: scale(1,03);   
+}
+.imgActivites2Tab {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
 }
 /*fin reglage bloc*/
 .hauteurTitre{
@@ -391,6 +403,12 @@ width: 95%;
 .margeBlocFoot1{
     margin-left: 5%;
 }
-.margeBlocFoot3{
+.margeBlocFoot2{
     margin-right: 15%;
+}
+.lienfoot{
+    color: black;
+}
+.divlienfoot{
+    height: 30px;
 }
