@@ -1,6 +1,8 @@
 /*GENERAL*/
 html,body {
     font-family: Raleway,Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .flex-centre{
    display: flex; 
@@ -185,6 +187,12 @@ color: #0065fc;
      margin-right: 5px;
 }
 /*HEBERGEMENTS*/
+.fix1{
+    margin-bottom: 40px;
+}
+.fix2{
+    margin-bottom: 30px;
+}
 .sizeHebergements{
     flex: 2;
     height: 650px;
@@ -319,6 +327,10 @@ color: #0065fc;
     border-radius: 15px 0 0 15px;
 }
 /*Activites*/
+.margactivites{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
 .Activites{
     margin-top: 50px;
     margin-bottom: 50px;
