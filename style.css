@@ -1,8 +1,8 @@
 /*GENERAL*/
 html,body {
     font-family: Raleway,Arial, Helvetica, sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .flex-centre{
    display: flex; 
@@ -73,7 +73,10 @@ align-items: center;
 .sizeNav{
     height: auto;
 }
-.sizeLiens {
+.sizelien12{
+    margin-left: 60%;
+}
+.sizeLiens{
     width: 100%;
 }
 .sizeLien {
@@ -81,7 +84,7 @@ align-items: center;
     height: 99px;
 }
 
-.colorlien2{
+.colorLiens2{
     color: black;
 }
 .bordureNav{
@@ -91,13 +94,16 @@ align-items: center;
     border-top: 1px solid #0065fc;
     cursor: pointer;
 }
-.bordureNav:hover > a{
+.bordureNav:hover>a {
     color: #0065fc;
 }
 .marglogo{
     padding: 20px;
 }
 /*HEADER*/
+.desktopNone{
+    display: none;
+}
 .borduresearch{
     width: 400px;
     border-radius: 10px;
@@ -354,12 +360,6 @@ color: #0065fc;
     cursor: pointer;
     transform: scale(1.03);
 }
-
-.cubeActivites24 {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
 /*fin reglage bloc*/
 .hauteurTitre{
     height: 70px;
@@ -424,3 +424,332 @@ width: 95%;
 .divlienfoot{
     height: 30px;
 }
+/*Responsive*/
+@media screen and (max-width:1295px){
+    .sizelien12{
+        margin-left: 35%;
+    }
+
+    .cubeDetailsHebergements{
+    min-height: 120px
+     }
+
+    .sizeHebergements {
+    min-height: auto;
+    padding: 20px;
+    }
+
+   .sizePopulaires {
+    min-height: auto;
+    padding: 20px;
+     }
+
+    .tailletablettepop{
+    margin-top: 0;
+    }
+}
+@media screen and (max-width: 992px) {
+
+    .filtreTexteIcons {
+        margin-bottom: 20px;
+    }
+
+    #hebergements {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .flexRowAround {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+    .blocPopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 3%;
+        margin-top: 50px;
+        margin-right: 25px;
+
+    }
+
+    .blocHebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+    .imgActivites1Tab {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0 0;
+    }
+    .imgActivites2Tab {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .imgActivites3Tab {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .imgActivites4Tab {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0 0;
+    }
+    .blocActivitesTab {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .flexBetweenTab {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mobileTitreParaTab {
+        padding-left: 2%;
+    }
+    .sizePopulairesTab {
+        flex: 1;
+        height: 300px;
+        margin-left: 20px;
+        width: 95%;
+    }
+    .cubePopulairesTab {
+        background-color: white;
+        margin: 1% 0 1% 1%;
+        max-height: 160px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        min-width: 250px;
+    }
+    .imgPopulairesTab1 {
+        width: 50%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .imgPopulairesTab2 {
+        width: 50%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .imgPopulairesTab3 {
+        width: 50%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .filtreTexteIcons {
+        margin-bottom: 20px;
+    }
+
+    #hebergements {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .blocPopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+        margin-top: 50px;
+    }
+
+    .blocHebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+    .mobileFiltreWrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+     .sizeLiens {
+        width: 90%;
+    }
+
+    .sizeLien12 {
+        margin-left: 20%;
+    }
+
+    .blocHebergements {
+        height: auto;
+    }
+
+    .bloc1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .bloc2 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .cubeHebergements {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .cubeDetailHebergements {
+        min-height: auto;
+    }
+    .blocActivites {
+        flex-direction: column;
+        height: auto;
+    } 
+    .blocActivitesmobile {
+        width: 100%;
+        
+    }
+    
+    .cubeActivites {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .blocActivites24 {
+        width: 100%;
+        height: auto;
+    }
+    .imgActivites1,.imgActivites2,.imgActivites3,.imgActivites4 {
+        height: 200px;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-left: 20px;
+    }
+    .margeBlocFoot1 {
+        margin-left: 0;
+    }
+    .sizePopulaires {
+        flex: 1;
+        height: 650px;
+        margin-left: 20px;
+        border-radius: 10px;
+        width: 90%;
+    }
+    .cubePopulaires {
+        background-color: white;
+        height: auto;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+    }
+    .flexColumnAround {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 600px) {
+    .marglogo {
+        margin-left: 140px;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+    #hebergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .sizelien12{
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+    }
+    .sizelienmobile{
+        width: 50%;
+        border-top: 0;
+        border-bottom: 5px solid #f2f2f2;
+    }
+    .sizeLiens{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .sizelienmobile:hover{
+        border-top: none;
+        border-bottom: 5px solid #0065fc;
+    }
+    /*.mobiletitreh1{
+        font-size: x-large;
+    }*/
+    .borduresearch{
+        width: auto;
+        border: none;
+    }
+    .recherche{
+        width: 200px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top:  1px solid #f2f2f2;
+    }
+    .buttonSearch{
+        width: 50px;
+        border-radius: 15px;
+    }
+    .desktopNone{
+        display: block;
+    }
+    .mobileNone{
+        display: none;
+    }
+    .margFiltre{
+        padding-left: 5%;
+    }
+    .mobileeconomique{
+        padding-right: 15px;
+    }
+    .mobilefamilliales{
+        padding-right:55px;
+    }
+    .mobileRomantique{
+        padding-right: 15px;
+        
+    }
+    .filtreTexte{
+        height: 13px;
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    .filtreTexteChien {
+        height: 13px;
+        font-size: 12px;
+    }
+    .info {
+        padding-left: 5%;
+    }
+    .blocHebergements {
+        background-color: white;
+    }
+    .mobileTitrePara {
+        padding-left: 5%;   
+    }
+    .blocActivitesMobile {
+        padding: 5%;
+        width: 90%;
+    }
+    .blocHebergements{
+        background-color: white;
+    }
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+}
+
