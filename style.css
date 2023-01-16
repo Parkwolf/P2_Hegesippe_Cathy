@@ -154,7 +154,7 @@ border-radius: 25px;
 margin-right: 21px;
 }
 .filtretexteIcons:hover>.filtreTexte{
-    color: #0065fc;
+    color:#0065fc;
 }
 .filtretexteIcons:hover>.filtreIcons{
     color: white;
