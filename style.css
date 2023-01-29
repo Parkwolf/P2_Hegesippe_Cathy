@@ -548,7 +548,7 @@ width: 95%;
         border-radius: 15px 0 0 15px;
     }
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 770px){
     .filtreTexteIcons {
         margin-bottom: 20px;
     }
