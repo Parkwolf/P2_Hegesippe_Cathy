@@ -554,7 +554,7 @@ width: 95%;
     }
 
     #hebergements {
-        flex-direction: column;
+        flex-direction:column;
         width: 100%;
         
     }
@@ -608,7 +608,7 @@ width: 95%;
         min-height: auto;
     }
     .blocActivites {
-        flex-direction: column;
+        flex-direction:column;
         height: auto;
     } 
     .blocActivitesmobile {
@@ -632,7 +632,7 @@ width: 95%;
     .footer {
         flex-direction:row;
         align-items: flex-start;
-        height: auto;
+        height:auto;
         padding-left: 20px;
     }
     .margeBlocFoot1 {
